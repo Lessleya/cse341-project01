@@ -1,0 +1,13 @@
+LOCALHOST 
+###
+
+GET http://localhost:8080/contacts
+
+GET http://localhost:8080/contacts/
+
+PRODUCTION DEPLOY
+###
+
+GET https://cse341-project01.onrender.com/
+
+

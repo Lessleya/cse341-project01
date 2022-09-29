@@ -1,0 +1,33 @@
+
+
+{
+    "contact": {
+        "firstName": "Lesliee",
+        "lastName": "Cruz",
+        "email" : "cru19010@byui.edu",
+        "favoriteColor": "Pink",
+        "birthday": "07/08/96"
+
+
+    },
+
+    "contact2": {
+        "firstName": "Desiree",
+        "lastName": "Gaona",
+        "email" : "des19010@byui.edu",
+        "favoriteColor": "Yellow",
+        "birthday": "28/12/97"
+
+
+    },
+
+    "contact3": {
+        "firstName": "Rachelle",
+        "lastName": "Ceron",
+        "email" : "chela@byui.edu",
+        "favoriteColor": "Green",
+        "birthday": "24/08/98"
+
+    }
+}
+
