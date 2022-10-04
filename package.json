@@ -19,9 +19,11 @@
   "homepage": "https://github.com/Lessleya/Node.js-portfolio#readme",
   "dependencies": {
     "dotenv": "^16.0.2",
+    "eslint": "^8.24.0",
     "express": "^4.18.1",
     "mongodb": "^4.10.0",
-    "mongoose": "^6.6.2"
+    "mongoose": "^6.6.2",
+    "prettier": "^2.7.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

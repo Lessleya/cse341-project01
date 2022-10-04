@@ -8,6 +8,37 @@ GET http://localhost:8080/contacts/
 PRODUCTION DEPLOY
 ###
 
-GET https://cse341-project01.onrender.com/
+GET https://cse341-project01.onrender.com
 
 
+
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Tonatiuh",
+    "lastName":"Cruz",
+    "email":"cruz@test.com",
+    "favoriteColor":"Brown",
+    "birthday":"06/19/2000"
+}
+
+
+### PUT contact
+PUT http://localhost:8080/contacts/63310b172329f70bfb007d5a HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Lesliee",
+    "lastName":"Cruz",
+    "email":"cru19010@byui.edu",
+    "favoriteColor":"Yellow",
+    "birthday":"07/08/96"
+}
+### DELETE contact
+DELETE http://localhost:8080/contacts/633bbb24f65633dee7f70fc9 HTTP/1.1
+
+
+
+#
