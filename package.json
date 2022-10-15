@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "generate-docs": "node swagger.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
     "express": "^4.18.1",
     "mongodb": "^4.10.0",
     "mongoose": "^6.6.2",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
